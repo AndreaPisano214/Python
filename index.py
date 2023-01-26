@@ -1,6 +1,4 @@
-nomi=('Numa','Tullio','Paolo')
-cognomi=('Figo','Brutto','Bello')
-l=[]
-for nome,cognome in zip(nomi,cognomi):
-    l.append({'Nome': nome,'Cognome': cognome})
-print(l)
+d={'nome':'pinco','cognome':'pallino'}
+d['matricola']=220758
+d['esame']={'informatica':30,'analisi':18}
+print(d)
